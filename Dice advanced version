@@ -1,0 +1,28 @@
+import random as r
+x=int(r.random()*7)
+print("[................]")
+if(x==1):
+    print("[                ]")
+    print("[       o        ]")
+    print("[                ]")
+elif(x==2):
+    print("[               o]")
+    print("[                ]")
+    print("[o               ]")
+elif(x==3):
+    print("[               o]")
+    print("[        o       ]")
+    print("[o               ]")
+elif(x==4):
+    print("[o              o]")
+    print("[                ]")
+    print("[o              o]")  
+elif(x==5):
+    print("[o              o]")
+    print("[        o       ]")
+    print("[o              o]")
+else:
+    print("[o              o]")
+    print("[o              o]")
+    print("[o              o]") 
+print("[................]")
