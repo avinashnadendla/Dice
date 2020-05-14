@@ -1,0 +1,7 @@
+import random as r
+print("[...............]")
+print("[               ]")
+x=str(int(r.random()*7))
+print("[       "+x+"       ]")
+print("[               ]")
+print("[...............]")
